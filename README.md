@@ -15,7 +15,7 @@ Get the Expo Docs app on your mobile device:
 
 <div align="center">
 
-[![App Store](https://bluewallet.io/uploads/app-store-badge-blue.svg)](https://apps.apple.com/us/app/expo-docs/id6739776586?uo=4) [![Play Store](https://bluewallet.io/uploads/play-store-badge-blue.svg)](https://www.my1btc.com/expodocs_1.1.0.apk)
+[![App Store](https://bluewallet.io/uploads/app-store-badge-blue.svg)](https://apps.apple.com/us/app/expo-docs/id6739776586?uo=4) [![Play Store](https://bluewallet.io/uploads/play-store-badge-blue.svg)](https://github.com/TF002/expo-docs-web/releases/download/v1.1.0/expodocs_1.1.0.apk)
 
 **🌐 [Visit Official Website](https://www.my1btc.com)**
 
@@ -31,7 +31,7 @@ Get the Expo Docs app on your mobile device:
 
 1. Clone the repository:
 ```bash
-git clone <https://github.com/TF002/expo-docs-web.gitl>
+git clone https://github.com/TF002/expo-docs-web.git
 cd expo-web
 ```
 

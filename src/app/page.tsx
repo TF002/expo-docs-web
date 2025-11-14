@@ -181,7 +181,7 @@ export default function Home() {
                                                 </a>
                                             </div>
                                             <div>
-                                                <a href="/expodocs_1.1.0.apk" download>
+                                                <a href="https://github.com/TF002/expo-docs-web/releases/download/v1.1.0/expodocs_1.1.0.apk" download>
                                                     <div className="md:block hidden">
                                                         <svg className="icon" viewBox="0 0 3276 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="164" height="164">
                                                             <path
