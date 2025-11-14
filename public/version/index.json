@@ -1,0 +1,14 @@
+{
+    "ios": {
+        "version": "1.1.0",
+        "buildNumber": "123",
+        "downloadUrl": "https://itunes.apple.com/lookup?bundleId=com.expodocsios.app",
+        "releaseDate": "2024-06-15T12:00:00Z"
+    },
+    "android": {
+        "version": "1.1.0",
+        "versionCode": 123,
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.yourapp",
+        "releaseDate": "2024-06-15T12:00:00Z"
+    }
+}

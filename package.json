@@ -1,0 +1,72 @@
+{
+    "name": "expo-web",
+    "version": "1.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --turbopack",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "lint:prettier": "npx prettier --config ./.prettierrc.js --ignore-path ./.prettierignore --write **/*.{js,css,html,json,vue,jsx,tsx,ts}"
+    },
+    "dependencies": {
+        "@radix-ui/react-hover-card": "^1.1.4",
+        "@react-three/drei": "^9.121.3",
+        "@react-three/fiber": "9.0.0-alpha.8",
+        "@supabase/supabase-js": "^2.76.1",
+        "@tabler/icons-react": "^3.30.0",
+        "@tsparticles/engine": "^3.7.1",
+        "@tsparticles/react": "^3.0.0",
+        "@tsparticles/slim": "^3.7.1",
+        "clsx": "^2.1.1",
+        "cobe": "^0.6.3",
+        "font-awesome": "^4.7.0",
+        "framer-motion": "^12.4.7",
+        "husky": "^9.1.7",
+        "i18next": "^25.6.0",
+        "i18next-browser-languagedetector": "^8.2.0",
+        "lint-staged": "^16.2.6",
+        "motion": "^12.23.6",
+        "next": "15.1.5",
+        "ogl": "^1.0.11",
+        "postprocessing": "^6.37.8",
+        "prettier": "^3.6.2",
+        "qss": "^3.0.0",
+        "rc-animate": "^3.1.1",
+        "rc-queue-anim": "^2.0.0",
+        "rc-scroll-anim": "^2.7.6",
+        "rc-tween-one": "^3.0.6",
+        "react": "^19.0.0",
+        "react-awesome-reveal": "^4.3.1",
+        "react-dom": "^19.0.0",
+        "react-hot-toast": "^2.6.0",
+        "react-i18next": "^16.2.1",
+        "simplex-noise": "^4.0.3",
+        "sonner": "^2.0.7",
+        "tailwind-merge": "^2.6.0",
+        "three": "^0.172.0",
+        "three-globe": "^2.41.4"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "eslint": "^9",
+        "eslint-config-next": "15.1.5",
+        "postcss": "^8",
+        "tailwindcss": "^3.4.1",
+        "typescript": "^5"
+    },
+    "lint-staged": {
+        "*.{tsx,ts,js,css,html,json,vue}": [
+            "prettier --config .prettierrc.js --write",
+            "git add"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "i18n-ally.localesPaths": [
+        "public/locales"
+    ],
+    "i18next.i18nPaths": "e:/Code/TF002/expo-docs-web/public/locales"
+}
